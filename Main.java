@@ -20,8 +20,6 @@ class Main {
      
     return new String(reversa);
 }
-
-
   
   public static void main(String[] args) {
     String palabras;
@@ -41,10 +39,7 @@ class Main {
      if(pali.equals(words[k])){
       mensaje = "\u001B[36m"+"Palabra palíndroma"+"\u001B[0m";
      }
-
            System.out.println(words[k]+" → " + pali+" " + mensaje);
-  
-           
     }// end for 
 
   } // metodo main
